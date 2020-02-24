@@ -12,7 +12,7 @@ public class Board extends JPanel implements Constants {
 
     @Override
     protected void paintComponent(Graphics graphics) {
-        graphics.setColor(Color.GREEN);
+        graphics.setColor(Color.RED);
         graphics.fillRect(0, 0, this.getWidth(), this.getHeight());
 
         for (int row = 0; row < GRID_SIZE; row++) {

@@ -10,7 +10,7 @@ public class Bomberman implements Constants {
      * this method should be invoked from the
      * event-dispatching thread.
      */
-    private Bomberman() {
+    Bomberman() {
         // Create and set up the window.
         JFrame frame = new JFrame("Bomberman");
         frame.setPreferredSize(new Dimension(WIDTH, HEIGHT));
