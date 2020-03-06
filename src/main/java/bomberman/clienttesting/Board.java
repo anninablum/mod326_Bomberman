@@ -1,5 +1,6 @@
-package bomberman.client;
+package bomberman.clienttesting;
 
+<<<<<<< HEAD
 import java.awt.*;
 import java.awt.Graphics;
 import javax.swing.JPanel;
@@ -8,15 +9,28 @@ public class Board extends JPanel implements Constants {
 
     //Senften
 
+=======
+import javax.swing.*;
+import java.awt.*;
+
+public class Board extends JPanel implements Constants {
+
+>>>>>>> 37d34ae... develop commit
     public Board(final int width, final int height) {
         setSize(width, height);
         this.addMouseListener(new MotionListener());
     }
 
+<<<<<<< HEAD
 
     @Override
     protected void paintComponent(Graphics graphics) {
         graphics.setColor(Color.RED);
+=======
+    @Override
+    protected void paintComponent(Graphics graphics) {
+        graphics.setColor(Color.GREEN);
+>>>>>>> 37d34ae... develop commit
         graphics.fillRect(0, 0, this.getWidth(), this.getHeight());
 
         for (int row = 0; row < GRID_SIZE; row++) {
@@ -29,6 +43,7 @@ public class Board extends JPanel implements Constants {
                 graphics.setColor(Color.LIGHT_GRAY);
                 graphics.fillRect(x, y,
                         SQUARE_SIZE - SPACING, SQUARE_SIZE - SPACING);
+<<<<<<< HEAD
 
             }
         }
@@ -104,4 +119,10 @@ public class Board extends JPanel implements Constants {
 //        }
 //    }
 
+=======
+            }
+        }
+
+    }
+>>>>>>> 37d34ae... develop commit
 }

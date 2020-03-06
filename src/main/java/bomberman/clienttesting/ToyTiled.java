@@ -1,4 +1,4 @@
-package bomberman.client;
+package bomberman.clienttesting;
 
 //https://stackoverflow.com/questions/2782068/what-are-tiles-and-how-are-they-created-in-the-bufferedimage
 

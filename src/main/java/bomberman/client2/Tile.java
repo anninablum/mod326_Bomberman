@@ -1,4 +1,4 @@
-package bomberman.annina;
+package bomberman.client2;
 
 import org.newdawn.slick.opengl.Texture;
 

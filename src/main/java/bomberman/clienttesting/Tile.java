@@ -1,4 +1,4 @@
-package bomberman.client;
+package bomberman.clienttesting;
 
 
 //https://coderanch.com/t/633503/java/Tiled-Based-Map-Game-Java
