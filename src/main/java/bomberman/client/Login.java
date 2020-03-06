@@ -1,4 +1,4 @@
-package bomberman.client;
+package main.java.bomberman.client;
 
 import javax.swing.*;
 import java.awt.*;
@@ -38,6 +38,7 @@ public class Login extends JFrame {
 
         //Creating a panel for the Login components
         JPanel panel = new JPanel();
+        panel.setVisible(true);
 
         JLabel labelUsername = new JLabel("Your username: ");
         final JTextField username = new JTextField(15);
@@ -60,9 +61,6 @@ public class Login extends JFrame {
         panel.add(labelUsername);
         panel.add(username);
         panel.add(button1);
-
-
-
 
 
         // Layout

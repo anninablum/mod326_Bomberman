@@ -1,9 +1,13 @@
-package bomberman.client;
+package main.java.bomberman.client;
+
+import main.java.bomberman.client.Board;
+import main.java.bomberman.client.Constants;
 
 import javax.swing.*;
 import java.awt.*;
 
-public class Bomberman implements Constants {
+
+public class Bomberman implements main.java.bomberman.client.Constants {
 
     /**
      * Create the GUI and show it.  For thread safety,
@@ -17,9 +21,15 @@ public class Bomberman implements Constants {
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setResizable(false);
 
-        // Set up the content pane.
+//         Set up the content pane.
         frame.setContentPane(
-                new Board(Constants.WIDTH, Constants.HEIGHT));
+//                new Board(Constants.WIDTH,Constants.HEIGHT));
+                new Grid());
+
+
+//        frame.setContentPane(
+//                 new int[][] type = new int[4][4]);
+//                );
 
         // Display the window.
         frame.pack();

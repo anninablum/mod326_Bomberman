@@ -1,4 +1,4 @@
-package bomberman.client;
+package main.java.bomberman.client;
 
 public interface Constants {
 

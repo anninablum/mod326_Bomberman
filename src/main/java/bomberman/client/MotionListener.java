@@ -1,5 +1,4 @@
-package bomberman.client;
-
+package main.java.bomberman.client;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 
