@@ -1,13 +1,10 @@
-package main.java.bomberman.client;
-
-import main.java.bomberman.client.Board;
-import main.java.bomberman.client.Constants;
+package bomberman.client;
 
 import javax.swing.*;
 import java.awt.*;
 
 
-public class Bomberman implements main.java.bomberman.client.Constants {
+public class Bomberman implements Constants {
 
     /**
      * Create the GUI and show it.  For thread safety,

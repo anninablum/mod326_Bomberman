@@ -1,4 +1,4 @@
-package main.java.bomberman.client;
+package bomberman.client;
 
 import javax.swing.*;
 import java.awt.*;

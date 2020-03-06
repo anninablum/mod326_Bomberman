@@ -1,4 +1,4 @@
-package main.java.bomberman.client;
+package bomberman.client;
 
 import java.awt.*;
 
@@ -6,7 +6,8 @@ public enum Type {
     EMPTY (Color.BLUE),
     BOMB (Color.YELLOW),
     PLAYER  (Color.GREEN),
-    WALL (Color.PINK),;
+    WALL (Color.PINK),
+    GRASS (Color.GREEN);
 
     private Color color;
 

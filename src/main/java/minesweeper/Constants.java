@@ -1,4 +1,4 @@
-package minesweeper;
+package main.java.minesweeper;
 
 public interface Constants {
 

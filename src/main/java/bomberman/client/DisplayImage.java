@@ -1,4 +1,4 @@
-package main.java.bomberman.client;
+package bomberman.client;
 
 //http://zetcode.com/java/displayimage/
 

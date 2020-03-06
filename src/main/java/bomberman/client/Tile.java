@@ -1,4 +1,4 @@
-package main.java.bomberman.client;
+package bomberman.client;
 
 
 //https://coderanch.com/t/633503/java/Tiled-Based-Map-Game-Java
@@ -24,6 +24,11 @@ public class Tile {
         blockImage = new Image[500];
 
         loadArrays();
+    }
+
+    public Tile(int i, int i1, int i2, int i3, Type wall) {
+
+
     }
 
     private void loadArrays() {

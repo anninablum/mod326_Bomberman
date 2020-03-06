@@ -1,13 +1,7 @@
-package main.java.bomberman.client;
+package bomberman.client;
 
-import javax.swing.*;
 import java.awt.*;
-import java.awt.Dimension;
 import java.awt.Graphics;
-import java.awt.Image;
-import java.net.PortUnreachableException;
-import java.util.Arrays;
-import javax.swing.ImageIcon;
 import javax.swing.JPanel;
 
 public class Board extends JPanel implements Constants {
